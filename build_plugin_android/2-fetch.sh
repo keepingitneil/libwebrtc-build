@@ -13,8 +13,13 @@ cd /tmp/unitywebrtc
 
 git clone git@github.com:Unity-Technologies/com.unity.webrtc.git
 
+cd com.unity.webrtc
+
 git checkout "2.4.0-exp.1"
 
-rm -rf com.unity.webrtc
+cd ..
+
 mv com.unity.webrtc "$WORKING_DIR/src"
+
+rm -rf com.unity.webrtc
 

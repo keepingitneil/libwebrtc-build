@@ -1,13 +1,11 @@
 #!/bin/bash -eu
 
-export LIBWEBRTC_DOWNLOAD_URL=https://github.com/Unity-Technologies/com.unity.webrtc/releases/download/M89/webrtc-android.zip
-export SOLUTION_DIR=$(pwd)/Plugin~
-export PLUGIN_DIR=$(pwd)/Runtime/Plugins/Android
+export SOLUTION_DIR=$(pwd)/src/Plugin~
+export PLUGIN_DIR=$(pwd)/src/Runtime/Plugins/Android
 export ARCH_ABI=arm64-v8a
+export ANDROID_NDK=$(pwd)/android-ndk-r21b
 
-# Download LibWebRTC 
-curl -L $LIBWEBRTC_DOWNLOAD_URL > webrtc.zip
-unzip -d $SOLUTION_DIR/webrtc webrtc.zip 
+unzip -d "$SOLUTION_DIR/webrtc" ../build_libwebrtc_android/webrtc-android.zip 
 
 # Build UnityRenderStreaming Plugin 
 cd "$SOLUTION_DIR"
