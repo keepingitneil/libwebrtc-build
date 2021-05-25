@@ -1,6 +1,6 @@
-build_android/src
-build_android/out
-build_android/artifacts
-build_android/webrtc-android.zip
+build_libwebrtc_android/src
+build_libwebrtc_android/out
+build_libwebrtc_android/artifacts
+build_libwebrtc_android/webrtc-android.zip
 .cipd
 
