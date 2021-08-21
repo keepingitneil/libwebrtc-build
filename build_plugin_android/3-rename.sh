@@ -14,4 +14,4 @@ cd "$SRC_DIR/Plugin~/WebRTCPlugin/Codec"
 find . -type f -name "*.cc" -exec sed -i 's/org\/webrtc/org\/unityrtc/g' {} +
 find . -type f -name "*.h" -exec sed -i 's/org\/webrtc/org\/unityrtc/g' {} +
 
-patch $WK_DIR/WebRTC.cs.patch $WK_DIR/Runtime/Scripts/WebRTC.cs
+patch $WK_DIR/src/Runtime/Scripts/WebRTC.cs $WK_DIR/WebRTC.cs.patch
