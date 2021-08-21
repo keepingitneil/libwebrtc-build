@@ -1,0 +1,12 @@
+--- /tmp/old.cs	2021-08-19 11:27:21.038503400 -0700
++++ /tmp/new.cs	2021-08-19 11:28:01.798503400 -0700
+@@ -363,7 +363,8 @@
+             while (true)
+             {
+                 // Wait until all frame rendering is done
+-                yield return new WaitForEndOfFrame();
++		yield return new WaitForSeconds(0.04167f);
++                // yield return new WaitForEndOfFrame();
+                 {
+                     foreach(var track in VideoStreamTrack.tracks)
+                     {

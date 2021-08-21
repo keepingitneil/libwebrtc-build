@@ -15,7 +15,7 @@ git clone git@github.com:Unity-Technologies/com.unity.webrtc.git
 
 cd com.unity.webrtc
 
-git checkout "2.4.0-exp.1"
+git checkout "2.4.0-exp.4"
 
 cd ..
 

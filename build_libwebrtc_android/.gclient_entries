@@ -1,6 +1,5 @@
 entries = {
   'src': 'https://webrtc.googlesource.com/src.git',
-  'src/third_party/crc32c/src': 'https://chromium.googlesource.com/external/github.com/google/crc32c.git@5998f8451548244de8cde7fab387a550e7c4497d',
   'src/base': 'https://chromium.googlesource.com/chromium/src/base@a361323fd59a160a15e5ce050ab53612cfab4956',
   'src/build': 'https://chromium.googlesource.com/chromium/src/build@d64e5999e338496041478aaed1759a32f2d2ff21',
   'src/buildtools': 'https://chromium.googlesource.com/chromium/src/buildtools@235cfe435ca5a9826569ee4ef603e226216bd768',
